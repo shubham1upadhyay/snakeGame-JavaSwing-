@@ -1,9 +1,14 @@
-package snakegame;
-import javax.swing.JFrame;
+package com.company;
 
-public class frame extends JFrame {
-public static void main(String[] args) {
-	sysou
-}
-	
+import javax.swing.*;
+
+public class Frame extends JFrame {
+    public Frame()
+    {
+        this.add(new Panel());
+        this.setTitle("SnakeGame ==> 2023");
+        this.setResizable(false);
+        this.pack();
+        this.setVisible(true);
+    }
 }
